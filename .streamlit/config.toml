@@ -1,7 +1,9 @@
 [server]
 headless = true
 address = "0.0.0.0"
-port = 5000
+port = 8501
+enableCORS = false
+enableXsrfProtection = false
 
 [theme]
 primaryColor = "#10b981"
@@ -11,5 +13,8 @@ textColor = "#1f2937"
 font = "sans serif"
 
 [client]
-showErrorDetails = false
+showErrorDetails = true
 toolbarMode = "minimal"
+
+[browser]
+gatherUsageStats = false

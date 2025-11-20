@@ -1,7 +1,7 @@
-streamlit
-pandas
-plotly
-psycopg2-binary
-sqlalchemy
-openpyxl
-pillow
+streamlit>=1.50.0
+pandas>=2.3.3
+plotly>=6.3.1
+sqlalchemy>=2.0.44
+psycopg2-binary>=2.9.11
+openpyxl>=3.1.5
+pillow>=11.3.0
